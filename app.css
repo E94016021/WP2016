@@ -1,0 +1,18 @@
+body{                                                                           
+background:black url("http://i.imgur.com/Izb0mgP.jpg") no-repeat center;
+background-size:1100px 820px;
+background-position:right;
+
+}
+
+h{
+color:cyan;
+}
+
+t{
+color:white;
+}
+
+img{
+opacity:0.85;
+}
