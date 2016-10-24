@@ -1,22 +1,43 @@
 <html>                                                                          
 
 <head>
-<link rel = stylesheet type = "text/css" href = "app.css"
-</head>
+<link rel = stylesheet type = "text/css" href = "app.css">
+<script type="Text/JavaScript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+      $("#pic").mouseenter(function(){
+              $("#pic").fadeTo("slow",0.01);    
+                  });
+                    
+                      
+                          $("#pic").mouseenter(function(){
+                                  $("#pic").fadeTo("slow",0.01);    
+                                      });
+                                        $("#pic").mouseleave(function(){
+                                                $("#pic").fadeTo("slow",1);    
+                                                    });
+                                                    });
+                                                    </script>
+                                                    </head>
 
-<body>
-<h><br><br><br><br><br><br>
-<br><br><br><br><br><br><br>
-<br><br><br>Lee Shiang<br></h>
-<img src = "http://imgur.com/K6OwcTD.jpg" width = "171" height = "255">
-<t>
-<br>
-School: NCKU<br>
-Age: unknow<br>
-Favorite color: cyan<br>
-Height: 5"9<br>
-Weight: unknow<br> 
-</t>        
-</body> 
-</html> 
+                                                    <body>
+
+                                                    <div>
+                                                      <img id="pic" class="pic" src = "http://imgur.com/K6OwcTD.jpg" width = "171" height = "255">
+
+                                                      <h><br><br><br>
+                                                      Lee Shiang<br>
+                                                      </h>
+                                                      <t>
+                                                      <br>School: NCKU<br>
+                                                      Age: unknow<br>
+                                                      Favorite color: cyan<br>
+                                                      Height: 5"9<br>
+                                                      Weight: unknow<br> 
+                                                      </t>        
+
+                                                      <div/>
+                                                      </body>
+
+                                                      </html> 
 

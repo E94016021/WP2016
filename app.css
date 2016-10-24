@@ -1,18 +1,38 @@
-body{                                                                           
+body{
+margin:0;
 background:black url("http://i.imgur.com/Izb0mgP.jpg") no-repeat center;
 background-size:1100px 820px;
-background-position:right;
-
+background-position:171px
 }
 
-h{
-color:cyan;
-}
-
-t{
-color:white;
+div{
+position:absolute;
+top:32%;
 }
 
 img{
-opacity:0.85;
-}
+    position:absolute;
+        left:0px;
+            top:0px;
+                z-index:1;
+                }
+
+
+
+
+                h{
+                  position:relative;
+                    top:0%;
+                    color:cyan;
+                      opacity:0.95;
+                      }
+
+                      t{
+                      color:white;
+                        opacity:0.95;
+                        }
+
+                        img{
+                        opacity:0.95;
+                        }
+
